@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge #07 - Interaction with a 3D object [HTML, CSS & JS]</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Import map for local development with npm package -->
+    <!-- This tells the browser where to find the 'three' module -->
+    <!-- when you run a local server from the project's root directory. -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "/node_modules/three/build/three.module.js"
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- The h1 is hidden by style.css for the fullscreen experience -->
+    <h1>Challenge #07 - Interaction with a 3D object [HTML, CSS & JS]</h1>
+    <!-- The div with id="container" is no longer used as the canvas is appended directly to the body for fullscreen -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
